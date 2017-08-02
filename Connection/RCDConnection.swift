@@ -5,7 +5,7 @@
 import Foundation
 import Reachability
 
-public class RDConnection {
+public class RCDConnection {
     
     public static var isOn: Bool {
        return Reachability.forInternetConnection().currentReachabilityStatus() != .NotReachable

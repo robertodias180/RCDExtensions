@@ -5,17 +5,17 @@
 import Foundation
 import Reachability
 
-class RDConnection {
+public class RDConnection {
     
-    static var isOn: Bool {
+    public static var isOn: Bool {
        return Reachability.forInternetConnection().currentReachabilityStatus() != .NotReachable
     }
  
-    static var isWiFi: Bool {
+    public static var isWiFi: Bool {
         return Reachability.forInternetConnection().currentReachabilityStatus() != .ReachableViaWiFi
     }
     
-    static var isWWan: Bool {
+    public static var isWWan: Bool {
         return Reachability.forInternetConnection().currentReachabilityStatus() != .ReachableViaWWAN
     }
 

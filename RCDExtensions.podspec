@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RCDExtensions"
-  s.version      = "0.0.2.1"
+  s.version      = "0.0.2.2"
   s.summary      = "RCDExtensions."
 
   # This description is used to generate tags and improve search results.
@@ -140,6 +140,11 @@ Pod::Spec.new do |s|
   s.subspec 'Connection' do |spec|
     spec.source_files   = 'Connection/*.swift'
     spec.dependency 'Reachability'
+  end  
+
+  s.subspec 'Extensions' do |spec|
+    spec.source_files   = 'Extensions/*.swift'
+    spec.dependency 'SwifterSwift'
   end
 
 end

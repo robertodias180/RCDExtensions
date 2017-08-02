@@ -1,9 +1,5 @@
 //
 //  TestConnection.swift
-//  True&False
-//
-//  Created by Roberto Dias on 08/05/2017.
-//  Copyright © 2017 Walkme. All rights reserved.
 //
 
 import Foundation

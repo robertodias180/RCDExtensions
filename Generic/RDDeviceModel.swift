@@ -1,9 +1,5 @@
 //
 //  DeviceModel.swift
-//  Trivial Pol
-//
-//  Created by Roberto Dias on 22/02/2017.
-//  Copyright © 2017 WalkMe. All rights reserved.
 //
 
 import Foundation

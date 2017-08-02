@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "RDExtensions"
+  s.name         = "RCDExtensions"
   s.version      = "0.0.1"
-  s.summary      = "RDExtensions."
+  s.summary      = "RCDExtensions."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                     Group of generic extensions
                    DESC
 
-  s.homepage     = "https://github.com/robertodias180/RDExtensions"
+  s.homepage     = "https://github.com/robertodias180/RCDExtensions"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/robertodias180/RDExtensions.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/robertodias180/RCDExtensions.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

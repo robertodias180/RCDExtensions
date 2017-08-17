@@ -6,6 +6,11 @@ Lazy pod with default extension
 
 ### Connection
 1. pod 'Reachability'
+```
+var isOn: Bool
+var isWiFi: Bool
+var isWWan: Bool
+```
 
 ### Extensions
 1. pod 'SwifterSwift'

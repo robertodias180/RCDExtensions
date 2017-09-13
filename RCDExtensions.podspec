@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RCDExtensions"
-  s.version      = "0.0.3.0"
+  s.version      = "0.0.3.1"
   s.summary      = "RCDExtensions."
 
   # This description is used to generate tags and improve search results.
@@ -136,15 +136,24 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
 
   s.subspec 'Generic' do |spec|
+    spec.pod_target_xcconfig = {
+      'SWIFT_VERSION' => '4.0',
+    }
     spec.source_files   = 'Generic/*.swift'
   end
 
   s.subspec 'Connection' do |spec|
+    spec.pod_target_xcconfig = {
+      'SWIFT_VERSION' => '4.0',
+    }
     spec.source_files   = 'Connection/*.swift'
     spec.dependency 'Reachability'
   end  
 
   s.subspec 'Extensions' do |spec|
+    spec.pod_target_xcconfig = {
+      'SWIFT_VERSION' => '4.0',
+    }
     spec.source_files   = 'Extensions/*.swift'
   end
 

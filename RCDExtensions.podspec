@@ -79,7 +79,9 @@ Pod::Spec.new do |s|
   #
 
   s.source       = { :git => "https://github.com/robertodias180/RCDExtensions.git", :tag => "#{s.version}" }
-
+  s.pod_target_xcconfig = {
+    'SWIFT_VERSION' => '4.0',
+  }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

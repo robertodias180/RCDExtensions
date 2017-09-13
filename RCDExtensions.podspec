@@ -144,7 +144,6 @@ Pod::Spec.new do |s|
 
   s.subspec 'Extensions' do |spec|
     spec.source_files   = 'Extensions/*.swift'
-    spec.dependency 'SwifterSwift'
   end
 
 end

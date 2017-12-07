@@ -11,6 +11,3 @@ var isOn: Bool
 var isWiFi: Bool
 var isWWan: Bool
 ```
-
-### Extensions
-1. pod 'SwifterSwift'

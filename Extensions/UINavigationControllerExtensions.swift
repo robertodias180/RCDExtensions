@@ -1,9 +1,5 @@
 //
 //  UINavigationControllerExtensions.swift
-//  Theme Quiz
-//
-//  Created by Roberto Dias on 01/09/2017.
-//  Copyright © 2017 WalkMe. All rights reserved.
 //
 
 import UIKit

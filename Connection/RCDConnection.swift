@@ -12,11 +12,11 @@ public class RCDConnection {
     }
  
     public static var isWiFi: Bool {
-        return Reachability.forInternetConnection().currentReachabilityStatus() != .ReachableViaWiFi
+        return Reachability.forInternetConnection().currentReachabilityStatus() == .ReachableViaWiFi
     }
     
     public static var isWWan: Bool {
-        return Reachability.forInternetConnection().currentReachabilityStatus() != .ReachableViaWWAN
+        return Reachability.forInternetConnection().currentReachabilityStatus() == .ReachableViaWWAN
     }
 
 }
